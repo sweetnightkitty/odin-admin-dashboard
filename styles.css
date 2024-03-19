@@ -50,24 +50,24 @@ body {
     gap: 15px;
 }
 
-.content .cards {
+.main .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
     flex: 1;
 }
 
-.content .card {
+.card {
     background-color: white;
     border-radius: 10px;
 }
 
-.content .groups {
+.top-right .groups {
     background-color: white;
 }
 
 
-.content .users {
+.bottom-right .users {
     background-color: white;
 }
 li {
