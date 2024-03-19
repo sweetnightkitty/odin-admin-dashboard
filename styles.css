@@ -19,10 +19,17 @@ body {
 
 .sidebar {
     grid-row: 1 / span 2;
+    display: grid;
 }
 
+li {
+    list-style-type: none;
+}
 
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 
