@@ -35,7 +35,14 @@ body {
     display: grid;
 }
 
+.content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
 
+.content .projects {
+    grid-row: span 2;
+}
 
 
 
@@ -64,4 +71,8 @@ a {
 
 .content {
     background-color: lightgrey;
+}
+
+.content > * {
+    border: 1px solid red;
 }
