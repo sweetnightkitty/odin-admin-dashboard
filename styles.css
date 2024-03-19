@@ -11,10 +11,10 @@ body {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
 }
 
 .header {
-    grid-row: 1;
     grid-column: 2;
     display: grid;
     grid-template-columns: 2fr 1fr;
