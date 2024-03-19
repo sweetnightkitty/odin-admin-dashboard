@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 4fr;
+}
+
+.header {
+    grid-column: 2;
+}
+
+.sidebar {
+    grid-row: 1 / span 2;
+}
+
+
+
+
+
+
+
+/* temporary styling for visualization */
+
+.sidebar {
+    background-color: lightblue;
+}
+
+.header {
+    background-color: lightpink;
+}
+
+.content {
+    background-color: lightgrey;
+}
