@@ -14,13 +14,22 @@ body {
 }
 
 .header {
+    grid-row: 1;
     grid-column: 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
+
 
 .sidebar {
     grid-row: 1 / span 2;
     display: grid;
 }
+
+
+
+
+
 
 li {
     list-style-type: none;
