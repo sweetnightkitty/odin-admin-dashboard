@@ -20,6 +20,15 @@ body {
     grid-template-columns: 2fr 1fr;
 }
 
+.header .left {
+    display: grid;
+}
+
+.header .right {
+    display: grid;
+}
+
+
 
 .sidebar {
     grid-row: 1 / span 2;
