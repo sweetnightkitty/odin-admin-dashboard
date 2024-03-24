@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+
+    --blue: #1992d4;
 }
 
 body {
@@ -46,6 +48,8 @@ h1, h2 {
 .sidebar {
     grid-row: 1 / span 2;
     display: grid;
+    background-color: var(--blue);
+    color: white;
 }
 
 .content {
@@ -130,13 +134,19 @@ a {
     color: inherit;
 }
 
+button {
+    background-color: var(--blue);
+    color: white;
+    border-style: none;
+    width: 80px;
+    height: 35px;
+    /*padding: 8px 25px;*/
+    border-radius: 25px;
+}
 
 
 /* temporary styling for visualization */
 
-.sidebar {
-    background-color: lightblue;
-}
 
 .header {
     background-color: lightpink;
