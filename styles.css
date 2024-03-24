@@ -188,13 +188,3 @@ input {
 .icons {
     filter: var(--filter-to-white);
 }
-/* temporary styling for visualization */
-
-
-.content > * {
-    border: 1px solid red;
-}
-
-.card, .group, .user {
-    border: 1px solid orange;
-}
