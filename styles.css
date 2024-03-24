@@ -7,6 +7,10 @@ body {
     height: 100vh;
 }
 
+h1, h2 {
+    font-size: 20px;
+}
+
 .container {
     display: grid;
     height: 100%;
@@ -73,23 +77,37 @@ body {
 .content .top-right {
     display: grid;
     grid-template-rows: max-content;
+    gap: 15px;
     font-size: 14px;
+}
+
+.content .top-right .groups-bgd {
+    display: grid;
+    background-color: white;
+    border-radius: 10px;
 }
 .content .top-right .title {
     font-weight: bold;
 }
 .top-right .groups {
-    background-color: white;
     display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .content .bottom-right {
     display: grid;
     grid-template-rows: max-content;
+    gap: 15px;
+}
+
+.content .bottom-right .users-bgd {
+    display: grid;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .bottom-right .users {
-    background-color: white;
     display: grid;
 }
 
@@ -128,6 +146,6 @@ a {
     border: 1px solid red;
 }
 
-.card {
+.card, .group, .user {
     border: 1px solid orange;
 }
