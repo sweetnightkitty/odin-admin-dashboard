@@ -71,8 +71,17 @@ body {
     border-radius: 10px;
 }
 
+.content .top-right {
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    font-size: 14px;
+}
+.content .top-right .title {
+    font-weight: bold;
+}
 .top-right .groups {
     background-color: white;
+    display: grid;
 }
 
 .content .bottom-right {
