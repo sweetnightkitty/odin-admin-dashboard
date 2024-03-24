@@ -75,10 +75,26 @@ body {
     background-color: white;
 }
 
+.content .bottom-right {
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+}
 
 .bottom-right .users {
     background-color: white;
+    display: grid;
 }
+
+.bottom-right .users .user {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 li {
     list-style-type: none;
 }
